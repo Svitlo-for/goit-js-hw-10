@@ -1,9 +1,24 @@
+body {
+    padding: 20;
+  }
+
 img {
-    max-width: 1600px;
-    height: auto;
+    width: 500px;
+    height: 500px;
+
+    object-fit: cover;
 }
 
 .hidden {
     display: none;
 }
+
+.cat-info {
+    margin-top: 20px;
+  
+    display: flex;
+    gap: 20px;
+  }
+
+
 
